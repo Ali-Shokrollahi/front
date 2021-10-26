@@ -1,0 +1,32 @@
+.menu__wrapper{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    border: 3px dashed #a67b5b;
+    background-color: #d0bb94;
+    color: #4e2d13;
+}
+
+
+.menu__title{
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 3px dashed #a67b5b;
+    padding: 20px;
+    
+}
+
+.menu{
+    margin-left: 20px;
+}
+
+hr{
+    margin: initial;
+   
+    width: 50%;
+}
+
+p{
+    font-size: 18px;
+}
