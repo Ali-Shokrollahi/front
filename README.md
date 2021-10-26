@@ -1,2 +1,2 @@
-# Mohajer-front
+# front
 Mohajer university FrontEnd homework
