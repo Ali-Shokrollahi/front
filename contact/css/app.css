@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(3, 153, 179);
+    background: linear-gradient(180deg, rgba(3, 153, 179, 0.8914916308320203) 42%, rgba(3, 153, 179, 0.630987429151348) 72%);
+    direction: rtl;
+}
+
+.contact{
+    width: 40%;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    font-family: "gandom";
+    
+    padding: 10px 20px;
+    color: rgb(61, 61, 61);
+}
+
+.contact__title{
+border-bottom: 3px solid rgb(3, 153, 179);
+width: 300px;
+}
+
+.contact__form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+input,textarea{
+    padding: 10px;
+    width: 45%;
+    font-family:"gandom" ;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(3, 153, 179);
+    
+    
+}
+
+.email{
+    width: 70%;
+}
+textarea{
+    resize: none;
+    width: 90%;
+    margin-top: 30px;
+    border: 1px solid rgb(3, 153, 179);
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(3, 153, 179);
+}
+
+textarea:focus{
+    outline: none;
+    border-bottom: 3px solid rgb(3, 153, 179);
+}
+
+
+input[type=submit]{
+    border: none;
+    background-color: rgba(3, 153, 179, 0.671);
+    cursor: pointer;
+}
+
+
+
+
+

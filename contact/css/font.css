@@ -1,0 +1,9 @@
+@font-face {
+  font-family: gandom;
+  
+  src: 
+       url('../font/Gandom.woff') format('woff'),
+       url('../font/Gandom.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
