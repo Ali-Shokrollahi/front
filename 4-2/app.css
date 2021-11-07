@@ -1,0 +1,28 @@
+.container {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Outlined-Button {
+    background-color: transparent;
+    border: 1px solid #79747E;
+    outline: #79747E;
+    color: #6750A4;
+    height: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 14;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
