@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'gandom';
+    src: url(Gandom.ttf);
+}
+
+* {
+    font-family: 'gandom';
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    background: #fafafa;
+}
+
+.title {
+    color: rgb(53, 53, 53);
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-collapse: collapse;
+}
+
+.table tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, .12);
+
+
+}
+
+.info-row:hover {
+    background-color: rgba(0, 0, 0, .04);
+}
+
+.table th {
+    height: 56px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .87);
+}
+
+.table td {
+    height: 52px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .87);
+
+}
+
+.service__check {
+    width: 16px;
+    height: 16px;
+}
+
+.number {
+    text-align: right;
+}
